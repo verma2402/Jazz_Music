@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>Playlist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="musiclist.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <div class="playlist">
+          <h2>Playlist</h2>
+          <ul class="song-list">
+            <li
+              data-src="music_file/Raataan Lambiyan - Shershaah 128 Kbps.mp3"
+              data-name="Raataan Lambiyan"
+              data-index="0"
+            >
+              <span>Raataan Lambiyan</span><span>08:20</span>
+            </li>
+            <li
+              data-src="music_file/Drunk n High - Mellow D 128 Kbps.mp3"
+              data-name="Drunk n High"
+              data-index="1"
+            >
+              <span>Drunk n High</span><span>04:56</span>
+            </li>
+            <li
+              data-src="music_file/Har Funn Maula - Koi Jaane Na 128 Kbps.mp3"
+              data-name="Har Funn Maula"
+              data-index="2"
+            >
+              <span>Har Funn Maula</span><span>02:20</span>
+            </li>
+            <li
+              data-src="music_file/Dil Galti Kar Baitha Hai - Jubin Nautiyal 128 Kbps.mp3"
+              data-name="Dil Galti Kar Baitha Hai"
+              data-index="3"
+            >
+              <span>Dil Galti Kar Baitha Hai</span><span>03:30</span>
+            </li>
+            <li
+              data-src="music_file/Paagal - Badshah 128 Kbps.mp3"
+              data-name="Paagal - Badshah"
+              data-index="4"
+            >
+              <span>Paagal - Badshah</span><span>03:40</span>
+            </li>
+            <li
+              data-src="music_file/She Move It Like - (amlijatt.in).mp3"
+              data-name="She Move It Like"
+              data-index="5"
+            >
+              <span>She Move It Like</span><span>02:11</span>
+            </li>
+            <li
+              data-src="music_file/Taaron Ke Shehar - Neha Kakkar 128 Kbps.mp3"
+              data-name="Taaron Ke Shehar"
+              data-index="6"
+            >
+              <span>Taaron Ke Shehar</span><span>03:18</span>
+            </li>
+            <li
+              data-src="music_file/Vaaste - Dhvani Bhanushali 128 Kbps.mp3"
+              data-name="Vaaste"
+              data-index="7"
+            >
+              <span>Vaaste</span><span>04:58</span>
+            </li>
+            <li>
+              data-src="music_file/Aankh Marey - Simmba 128 Kbps.mp3"
+              data-name="Aankh Marey"
+              data-index="8"
+            
+              <span>Aankh Marey</span><span>03:10</span>
+            </li>
+            <li
+              data-src="music_file/Teri Aankhon Mein - Neha Kakkar 128 Kbps.mp3"
+              data-name="Teri Aankhon Mein.jpg"
+              data-index="9"
+            >
+              <span>Teri Aankhon Mein</span><span>02:35</span>
+            </li>
+          </ul>
+          <audio src="" id="audio"></audio>
+        </div>
+        <div class="player">
+          <img src="music_img/int.img" alt="Record" class="record" />
+          <h2 id="title">Song Name</h2>
+          <div class="slidecontainer">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" min="0" max="100" value="50" class="slider" />
+            <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="controls">
+            <button class="previous" id="previous">
+              <i class="fa fa-step-backward"></i>
+            </button>
+            <button class="play-pause" id="play-pause">
+              <i class="fa fa-play"></i>
+            </button>
+            <button class="next" id="next">
+              <i class="fa fa-step-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

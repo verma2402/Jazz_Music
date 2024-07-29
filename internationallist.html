@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Playlist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="musiclist.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <div class="playlist">
+          <h2>Playlist</h2>
+          <ul class="song-list">
+            <li
+              data-src="music_file/BTS-Butter.mp3"
+              data-name="Butter-BTS"
+              data-index="0"
+            >
+              <span>Butter-BTS</span><span>08:20</span>
+            </li>
+            <li data-src="music_file/stay.mp3" data-name="Stay" data-index="1">
+              <span>Stay -Justin Bieber</span><span>04:56</span>
+            </li>
+            <li
+              data-src="music_file/Fer Ohi Hoyea - Jassi Gill.mp3"
+              data-name="Dynamite-BTS"
+              data-index="2"
+            >
+              <span>Dynamite-BTS</span><span>02:20</span>
+            </li>
+            <li
+              data-src="music_file/boy with luv.mp3"
+              data-name="Boy with luv"
+              data-index="3"
+            >
+              <span>Boy with luv</span><span>03:30</span>
+            </li>
+            <li
+              data-src="music_file/peaches.mp3"
+              data-name="Peaches - Justin Bieber"
+              data-index="4"
+            >
+              <span>Peaches - Justin Bieber</span><span>03:40</span>
+            </li>
+            <li
+              data-src="music_file/criminal.mp3"
+              data-name="Criminal"
+              data-index="5"
+            >
+              <span>Criminal</span><span>02:11</span>
+            </li>
+            <li
+              data-src="music_file/bol_mv.mp3"
+              data-name="BOL 4"
+              data-index="6"
+            >
+              <span>BOL 4</span><span>03:18</span>
+            </li>
+            <li
+              data-src="music_file/who says.mp3"
+              data-name="who says"
+              data-index="7"
+            >
+              <span>who says</span><span>04:58</span>
+            </li>
+            <li
+              data-src="music_file/love to hate me.mp3"
+              data-name="Love to hate me"
+              data-index="8"
+            >
+              <span>Love to hate me</span><span>03:10</span>
+            </li>
+            <li
+              data-src="music_file/love me like you do.mp3"
+              data-name="Love me like you do.jpg"
+              data-index="9"
+            >
+              <span>Love me like you do</span><span>02:35</span>
+            </li>
+          </ul>
+          <audio src="" id="audio"></audio>
+        </div>
+        <div class="player">
+          <img src="music_img/int.img" alt="Record" class="record" />
+          <h2 id="title">Song Name</h2>
+          <div class="slidecontainer">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" min="0" max="100" value="50" class="slider" />
+            <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="controls">
+            <button class="previous" id="previous">
+              <i class="fa fa-step-backward"></i>
+            </button>
+            <button class="play-pause" id="play-pause">
+              <i class="fa fa-play"></i>
+            </button>
+            <button class="next" id="next">
+              <i class="fa fa-step-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

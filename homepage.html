@@ -1,0 +1,204 @@
+   <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="web.css" />
+    <link rel="stylesheet" href="music.css" />
+    <link rel="stylesheet" href="webfooter.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--sidebar-->
+    <link rel="stylesheet" href="sidebar.css">
+    <title>Music goes on</title>
+  </head>
+  <body>
+    <div class="myweb">
+      <nav class="navbar">
+        <ul class="navlist">
+           <!--menu side bar-->
+          <div class="wrapper">
+            <input type="checkbox" id="btn" hidden>
+            <label for="btn" class="menu-btn">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+            </label>
+            <nav id="sidebar">
+            <div class="title">
+           Side Menu
+            </div>
+            <ul class="list-items">
+            <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+            <li><a href="#"><i class="fa fa-steam"></i>Features</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>About us</a></li>
+            <li><a href="#"><i class="fa fa-globe"></i>Languages</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i>Contact us</a></li>
+            <div class="icons">
+            </div>
+            </ul>
+            </nav>
+          </div>
+        <div class="navya">
+          <li><a href="#LOGO">MUSIC <BR>BUZZ</BR> </a></li>
+
+           <li><a href="#HOME">HOME</a></li>
+           <li><a href="about.html">ABOUT</a></li>                                  <!--about.html-->
+           <li><a href="login.html"target="blank">LOG IN/<br>SIGN IN</a></li>     <!--signin-->
+        </div>
+        </ul>
+  
+        <!--searchbox-->
+        <div class="searchbar" autocomplete="on" method="GET">
+          <input class="input" type="text" name="search" id="search" placeholder="  search songs" style="background-color: white;"/>
+          <button class="btn" >Search</button>
+        </div>
+  
+        </nav>                                                                   <!--nav bar completed-->
+  
+        <!--SWIP PLAYLIST-->
+       
+          <div class="swipswip">
+            
+            <div class="swiptop">
+              <div class="main">
+              
+                <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <a href="bwoodlist.html" target="_top">
+                     <img src="music_img/bwood.jpg"></a>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <a href="internationallist.html" target="_top">
+                 <img src="music_img/intn.img"></a>
+              </div>
+
+                      <div class="swiper-slide">
+                  <a href="oldsonglist.html" target="_top"><img src="music_img/Old-Hindi-Songs-Lyrics-1.jpg"></a>
+                  </div>
+                  
+                      <div class="swiper-slide">
+                        <a href="punjabilist.html" target="_top">
+                     <img src="music_img/punjabi.img"></a>
+                  </div>
+                  
+                  
+                     
+                     
+                    </div>
+                  <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                
+              <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+                <!-- Initialize Swiper -->
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      slidesPerView: 'auto',
+                      spaceBetween: 40,
+                  centeredSlides: true,
+                  grabCursor: false,
+                      loop: true,
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    type: "progressbar",
+                      },
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                    });
+                  </script>
+            </div>
+
+            <!--IMAGE HOVERING PLAYLIST OF 4-->
+            <div class="contain">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+            </div>
+          </div>
+
+<h3 class="playlist">TOP PLAYLIST</h3>
+<!--image section2-->
+<div class="sect2">
+  <div class="squareimg">
+    <img class="navu" src="music_img/dynamite.png" alt="">
+    <img class="navu"  src="music_img/love to hate me.jpg" alt="">
+    <img class="navu"  src="music_img/stay.jpg" alt="">
+    <img class="navu"  src="music_img/butter.jpg" alt="">
+  </div>
+
+  <div class="squareimg">
+    <img class="navu"  src="music_img/85554748.jpg" alt="" >
+    <img class="navu"  src="music_img/Churi.jpg" alt="">
+    <img class="navu"  src="music_img/fer ohi hoyega.jpeg" alt="">
+    <img class="navu"  src="music_img/Apsraa.jpg" alt="">
+  </div>
+
+  <div class="squareimg">
+    <img class="navu"  src="music_img/aank marey.webp" alt="" id="icon">
+    <audio id="song">
+      <source src="music_file/Aankh Marey - Simmba 128 Kbps.mp3" type="audio/mp3">
+  </audio> 
+  
+    <img class="navu"  src="music_img/fer ohi hoyega.jpeg" alt="" id ="icon">
+    <audio id="song">
+      <source src="music_file/Fer Ohi Hoyea - Jassi Gill.mp3" type="audio/mp3">
+  </audio>
+    <img class="navu"  src="music_img/ranjhana.webp" alt=""  id ="icon">
+    <img class="navu"  src="music_img/ran.jpg" alt=""  id ="icon">
+  </div>
+
+  <div class="squareimg">
+   <img class="navu"  src="music_img/kisi ki muskurahato.jpg" alt="" id="" >
+    <img class="navu"  src="music_img/lag ja gale.jpg" alt="">
+    <img  class="navu"src="music_img/mere sapno ki rani.jpg" alt="">
+    <img class="navu" src="music_img/O-Haseena-Zulfonwali-Jaane-Jahan-Teesri-Manzil-Mohammed-Rafi-Asha-Bhosle-www.oldisgold.co_.in_.jpg" alt="">
+  </div>
+  </div>
+
+
+<script src="square.js"></script>
+
+
+  
+        <!-- Footer -->
+    <footer >
+      <div class="footer-icon">
+          <ul>
+              <li><a href="#" target="black"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" target="black"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" target="black"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" target="black"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-nav">
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://forms.gle/3hMCfuyRkr9c7haP9">Feedback</a></li>
+              <li ><a href="contact.html">Contact Us</a></li>
+
+          </ul>
+      </div>
+      <div class="footer-end">
+          <p>© 2021 Music Buzz, Inc. All Rights Reserved </p>
+    </div>
+</footer>
+  
+</body>
+</html>

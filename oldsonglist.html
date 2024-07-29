@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Playlist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="musiclist.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <div class="playlist">
+          <h2>Playlist</h2>
+          <ul class="song-list">
+            <li
+              data-src="music_file/badan-pe-sitare-lapete-huye-prince-128-kbps-sound.mp3"
+              data-name="Badan Pe Sitare"
+              data-index="0"
+            >
+              <span>Badan Pe Sitare</span><span>08:20</span>
+            </li>
+            <li
+              data-src="music_file/Dil Diya Hai Jaan Bhi Denge Ae Watan Tere Liye Desh Bhakti Mp3 Song Download(DhamakaMusic.Co.IN).mp3"
+              type="audio/mp33"
+              data-name="Dil diya hai"
+              data-index="1"
+            >
+              <span>Dil diya hai</span><span>04:56</span>
+            </li>
+            <li
+              data-src="music_file/Ek Ajnabee Haseena Se.mp3"
+              data-name="Ek Ajnabee Haseena Se"
+              data-index="2"
+            >
+              <span>Ek Ajnabee Haseena Se</span><span>02:20</span>
+            </li>
+            <li
+              data-src="music_file/Kisi+Ki+Muskurahaton+Pe+Ho+Nisar+Raj+Kapoor+Anari+Mukesh+Evergreen+Hindi+Songs+HD.mp3"
+              data-name="Kisi ki muskurahato pe"
+              data-index="3"
+            >
+              <span>Kisi ki muskurahato pe</span><span>03:30</span>
+            </li>
+            <li
+              data-src="music_file/lata_mangeshkar_woh_kaun_thi_lag_ja_gale.mp3"
+              data-name="Lag ja gale"
+              data-index="4"
+            >
+              <span>Lag ja gale</span><span>03:40</span>
+            </li>
+            <li
+              data-src="music_file/likhe-jo-khat-tujhe-kanyadaan-128-kbps-sound.mp3"
+              type="audio/mp3"
+              data-name="Likhe jo khat tughe"
+              data-index="5"
+            >
+              <span>Likhe jo khat tughe</span><span>02:11</span>
+            </li>
+            <li
+              data-src="music_file/Mere Sapnon Ki Rani.mp3"
+              data-name="Mere Sapnon Ki Rani"
+              data-index="6"
+            >
+              <span>Mere Sapnon Ki Rani</span><span>03:18</span>
+            </li>
+            <li
+              data-src="music_file/MJS-O Mere Dil Chain (1).mp3"
+              data-name="O Mere Dil Chain"
+              data-index="7"
+            >
+              <span>O Mere Dil Chain</span><span>04:58</span>
+            </li>
+            <li
+              data-src="music_file/O-Haseena-Zulfon-Waali-Teesri-Manzil-Asha-Bhosle-and-Mohammed-Rafi-www.oldisgold.co_.in_.mp3"
+              data-name="O Haseena Julfon wali"
+              data-index="8"
+            >
+              <span>O Haseena Julfon wali</span><span>03:10</span>
+            </li>
+            <li
+              data-src="music_file/Zindagi Ek Safar Hai Suhana Yaha Kal Kya Ho Kisme Jana Mp3 Song Download(DhamakaMusic.Co.IN).mp3"
+              data-name="Zindagi ek safar hai suhana"
+              data-index="9"
+            >
+              <span>Zindagi ek safar hai suhana</span><span>02:35</span>
+            </li>
+          </ul>
+          <audio src="" id="audio"></audio>
+        </div>
+        <div class="player">
+          <img src="music_img/int.img" alt="Record" class="record" />
+          <h2 id="title">Song Name</h2>
+          <div class="slidecontainer">
+            <i class="fa fa-volume-down"></i>
+            <input type="range" min="0" max="100" value="50" class="slider" />
+            <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="controls">
+            <button class="previous" id="previous">
+              <i class="fa fa-step-backward"></i>
+            </button>
+            <button class="play-pause" id="play-pause">
+              <i class="fa fa-play"></i>
+            </button>
+            <button class="next" id="next">
+              <i class="fa fa-step-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

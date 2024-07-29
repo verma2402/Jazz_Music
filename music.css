@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+}
+.sec1 {
+  width: 50%;
+  background-color: rgb(1, 1, 1);
+  align-items: left;
+}
+
+.sec2 {
+  width: 50%;
+}
+.song_content {
+  margin-top: 50px;
+  display: flex;
+  background-color: rgb(65, 22, 69);
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.img_content {
+  margin-top: 200px;
+  margin-left: 250px;
+  padding-left: 20px;
+  padding-right: 0.25px;
+  width: 600px;
+  height: 500px;
+  border: solid purple 4px;
+}
+
+.text_content {
+  margin-left: 50px;
+  margin-top: 300px;
+  font-size: 80px;
+  font-family: fantasy;
+  color: white;
+}
+
+.audio_content {
+  margin-left: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 800px;
+}
